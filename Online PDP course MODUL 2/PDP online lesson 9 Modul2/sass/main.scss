@@ -1,0 +1,304 @@
+// FIRST TASK
+// %small-div {
+// 	position: absolute;
+// 	width: 300px;
+// 	height: 210px;
+// 	border-radius: 10px;
+// 	top: 120px;
+// 	z-index: -1;
+// }
+// body {
+// 	background: silver;
+// 	.container {
+// 		.row {
+// 			.col-md-12 {
+// 				.main-div-carousel {
+// 					width: 100%;
+// 					height: 100vh;
+// 					.carousel-inner {
+// 						width: 80%;
+// 						height: 420px;
+// 						margin: 20px auto;
+// 						.carousel-item {
+// 							position: relative;
+// 							.first {
+// 								@extend %small-div;
+// 								left: 80px;
+// 							}
+// 							.second {
+// 								position: absolute;
+// 								width: 500px;
+// 								height: 300px;
+// 								left: 194px;
+// 								top: 70px;
+// 								border-radius: 10px;
+// 								box-shadow: 0 8px 14px rgba(0,0,0,0.2);
+// 								z-index: 1;
+// 								.img-top {
+// 									display: flex;
+// 									z-index: 2;
+// 									width: 100%;
+// 									height: auto;
+// 									.comma {
+// 										margin-left: 50px;
+// 										margin-top: -15px;
+// 										img {
+// 											width: 40px;
+// 											height: 40px;
+// 										}
+// 									}
+// 									.img {
+// 										margin-left: 110px;
+// 										margin-right: 110px;
+// 										margin-top: -40px;
+// 										img {
+// 											border: 4px solid silver;
+// 											border-radius: 50%;
+// 											width: 90px;
+// 											height: 90px;
+// 										}
+// 									}
+// 								}
+// 								.title {
+// 									h5 {
+// 										font-weight: 600;
+// 										font-size: 18px;
+// 									}
+// 									h6 {
+// 										font-size: 16px;
+// 										margin-top: -7px;
+// 										color: #18c7f3;
+// 									}
+// 								}
+// 								.body {
+// 									width: 80%;
+// 									height: auto;
+// 									margin: 20px auto;
+// 									p {
+// 										font-size: 13px;
+// 										font-weight: 400;
+// 									}
+// 								}
+// 								.way {
+// 									display: flex;
+// 									justify-content: space-between;
+// 									z-index: 2;
+// 									.images {
+// 										width: 40px;
+// 										height: 40px;
+// 										border-radius: 50%;
+// 										background: silver;
+// 										margin-top: -80px;
+// 										cursor: pointer;
+// 										img {
+// 											margin-left: 10px;
+// 											margin-top: 5px;
+// 										}
+// 									}
+// 									.images:nth-child(1) {
+// 										margin-left: -20px;
+// 									}
+// 									.images:nth-child(2) {
+// 										margin-right: -20px;
+// 									}
+// 								}
+// 								.comma2 {
+// 									z-index: 2;
+// 									width: 40px;
+// 									height: 40px;
+// 									margin-left: 400px;
+// 									margin-top: 60px;
+// 									img {
+// 										width: 40px;
+// 										height: 40px;
+// 									}
+// 								}
+// 							}
+// 							.third {
+//                             	@extend %small-div;
+//                             	right: 80px;
+// 							}
+// 						}
+// 					}
+// 					.carousel-control-prev {
+// 						margin-top: 11px;
+// 						margin-left: 220px;
+// 						z-index: 1;
+// 					}
+// 					.carousel-control-next {
+// 						margin-top: 11px;
+// 						margin-right: 220px;
+// 						z-index: 1;
+// 					}
+// 					.carousel-indicators {
+// 						li {
+// 							border-radius: 50%;
+// 							width: 20px;
+// 							height: 20px;
+// 							&:active {
+// 							background: #18c7f3 !important;
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// SECOND TASK
+// body {
+// 	background: silver;
+// 	.container {
+// 		background: silver;
+// 		.row {
+// 			.my-col {
+// 				border: 2px solid grey;
+// 				height: 550px;
+// 				margin-top: 50px;
+// 				.row {
+// 					.col-md-8 {
+// 						.card {
+// 							.card-body {
+// 								border: 1px solid #fff;
+// 								height: 60px;
+// 								display: flex;
+// 								justify-content: space-between;
+// 								align-items: center;
+// 								cursor: pointer;
+// 								color: #fff;
+// 								p {
+// 									margin-top: 10px;
+// 									color: #ffffff;
+// 								}
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// THIRD TASK
+body {
+	background: #f1f1f1;
+	.container {
+		.row {
+			.my-col {
+				height: 400px;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				.form-group {
+					width: 80%;
+					height: 40px;
+					.input-group {
+						height: 40px;
+						background: silver;
+						border-radius: 20px;
+						.inp {
+							height: 40px;
+							background: silver;
+							border-radius: 20px 0 0 20px;
+						}
+						span {
+							.fa-search {
+								margin-top: 10px;
+								cursor: pointer;
+							}
+						}
+					}
+				}
+				.filter {
+					margin-top: 7px;
+					width: 20%;
+					height: 40px;
+					.fa-filter {
+						margin-left: 30px;
+						border-radius: 50%;
+						border: 3px solid silver;
+						width: 30px;
+						height: 30px;
+						padding: 5px;
+						cursor: pointer;
+					}
+				}
+				.collapse {
+					box-shadow: 3px 0px 7px rgba(0,0,0,0.1);
+					box-shadow: -3px -0px 7px rgba(0,0,0,0.1);
+					width: 60%;
+					height: 330px;
+					background: #fff;
+					margin-top: -30px;
+					margin-left: 178px;
+					position: relative;
+					border-radius: 5px;
+					padding: 20px 40px;
+					&:before {
+						position: absolute;
+						content: '';
+						width: 20px;
+						height: 20px;
+						top: -10px;
+						background: #fff;
+						right: 15px;
+						border-radius: 0 0 5px 0;
+						transform: rotate(45deg);
+					}
+					.dropdown {
+						width: 100%;
+						height: 48px;
+						border: 1px solid silver;
+						border-radius: 5px;
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						.dropdown-menu {
+							width: 100%;
+							border: none;
+							margin-left: -215px;
+							input {
+								margin-top: 20px;
+							}
+							input[type="checkbox"]{
+								appearance: none;
+								-webkit-appearance: none;
+								-moz-appearance: none;
+							}
+							input[type="checkbox"]{
+								width: 16px;
+								height: 16px;
+								border: 1px solid silver;
+								border-radius: 2px;
+							}
+							input[type="checkbox"]{
+								&:checked {
+									background: orange;
+								}
+							}
+							input[type="checkbox"]{
+								&:focus {
+									outline: 1px solid orange;
+								}
+							}
+							label {
+								display: flex;
+								span {
+									margin-top: 18px;
+									margin-left: 30px;
+									font-size: 12px;
+								}
+							}
+						}
+						.fa-angle-down {
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+	}
+}

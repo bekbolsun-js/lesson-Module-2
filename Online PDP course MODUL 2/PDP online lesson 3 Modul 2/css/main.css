@@ -1,0 +1,146 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #d1edf4; }
+
+.wrapper {
+  width: 900px;
+  height: auto;
+  margin: 0 auto; }
+  .wrapper .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    .wrapper .header a {
+      text-decoration: none;
+      color: black;
+      padding: 5px 9px;
+      border: 1px solid black;
+      border-radius: 5px;
+      height: 27px;
+      margin-top: 20px;
+      transition: all 0.5s; }
+      .wrapper .header a:hover {
+        background: red;
+        color: #fff;
+        border: 1px solid #fff; }
+  .wrapper .main-flex-div {
+    width: 100%;
+    height: 480px;
+    display: flex; }
+    .wrapper .main-flex-div .first {
+      width: 48%;
+      margin: 10px 10px; }
+    .wrapper .main-flex-div .big-div {
+      border-radius: 5px;
+      background: #fff;
+      position: relative;
+      box-sizing: border-box; }
+      .wrapper .main-flex-div .big-div::before {
+        content: "Jonli Efir";
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        width: 60px;
+        height: 18px;
+        padding: 5px 9px 5px 9px;
+        padding-top: 7px;
+        padding-left: 13px;
+        font-size: 13px;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        background: red; }
+      .wrapper .main-flex-div .big-div img {
+        width: 100%;
+        border-radius: 5px;
+        z-index: 0; }
+      .wrapper .main-flex-div .big-div span {
+        margin-top: -190px;
+        margin-left: 170px;
+        display: block;
+        cursor: pointer; }
+        .wrapper .main-flex-div .big-div span img {
+          width: 90px; }
+      .wrapper .main-flex-div .big-div h4 {
+        margin-top: 110px;
+        margin-left: 30px; }
+      .wrapper .main-flex-div .big-div h5 {
+        margin-top: -10px;
+        margin-left: 36px;
+        font-size: 18px;
+        font-weight: 200; }
+      .wrapper .main-flex-div .big-div .content {
+        display: flex;
+        color: grey;
+        justify-content: space-around; }
+        .wrapper .main-flex-div .big-div .content img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px;
+          margin-right: 20px;
+          background: #f4f3f3;
+          padding: 15px; }
+        .wrapper .main-flex-div .big-div .content p {
+          margin-left: 36px; }
+    .wrapper .main-flex-div .small-div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .wrapper .main-flex-div .small-div div {
+        position: relative;
+        width: 49%;
+        height: 220px;
+        background: #fff;
+        border-radius: 5px; }
+        .wrapper .main-flex-div .small-div div img {
+          width: 100%; }
+        .wrapper .main-flex-div .small-div div span img {
+          position: absolute;
+          top: 40px;
+          left: 80px;
+          width: 50px; }
+        .wrapper .main-flex-div .small-div div h5 {
+          font-size: 11px;
+          padding-left: 5px;
+          margin-top: 7px; }
+        .wrapper .main-flex-div .small-div div .icons {
+          width: 100%;
+          height: 10px;
+          display: flex; }
+          .wrapper .main-flex-div .small-div div .icons img {
+            width: 100px; }
+          .wrapper .main-flex-div .small-div div .icons img:nth-child(1) {
+            margin-left: -27px; }
+          .wrapper .main-flex-div .small-div div .icons img:nth-child(3) {
+            margin-left: -10px; }
+          .wrapper .main-flex-div .small-div div .icons .icon {
+            font-size: 9px;
+            margin-top: 2px;
+            margin-left: -40px; }
+      .wrapper .main-flex-div .small-div .last-div {
+        margin-top: 17px; }
+      .wrapper .main-flex-div .small-div .first-small-div {
+        position: relative;
+        overflow: hidden; }
+        .wrapper .main-flex-div .small-div .first-small-div::before {
+          content: "Anons";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 40px;
+          height: 13px;
+          padding-top: 3px;
+          padding-left: 12px;
+          padding-bottom: 2px;
+          font-size: 10px;
+          border-radius: 5px;
+          cursor: pointer;
+          color: #fff;
+          background: red; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,381 @@
+FIRST TASK*/
+/** {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: silver;
+}
+
+.wrapper {
+	display: flex;
+	width: 700px;
+	height: 200px;
+	margin: 200px auto;
+	padding: 20px;
+}
+
+.wrapper div {
+	width: 100px;
+	height: 100px;
+	background: #ffffff;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	margin-left: 25px;
+	margin-top: 25px;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrapper div button {
+	width: 100px;
+	height: 100px;
+	background: #ffffff;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+
+.wrapper div button img {
+	width: 40px;
+	height: 47px;
+}
+
+span {
+	width: 0%;
+	height: 0%;
+	background: blue;
+	position: absolute;
+	bottom: -200px;
+	left: -200px;
+	transform: rotate(45deg);
+}
+
+.wrapper div:hover span {
+	bottom: -10px;
+	left: -15px;
+	width: 165%;
+	height: 200%;
+	transition: all 0.7s ease-in;
+}
+
+.face-w {
+	width: 40px;
+	height: 47px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.wrapper div:hover .face-w {
+	top: 25%;
+	left:30%;
+	transform: scale(1.2);
+	transition: all 0.2s ease-in;
+	transition-delay: 0.4s;
+}
+
+.twit {
+	background: #21a7ec;
+}
+
+.google {
+	background: #ec214c;
+}
+
+.dribble {
+	background: #ec21d7;
+}
+
+.scype {
+	background: #21a7ec;
+}*/
+
+/*///////////////////////////////////////////*/
+
+/*TASK TWO*/
+/** {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 215px;
+	height: 200px;
+	margin: 200px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+input[type="checkbox"] + label {
+	cursor: pointer;
+	padding: 0.2em;
+	width: 3em;
+	height: 3em;
+	padding-left: 0.4em;
+	padding-bottom: -2.5em;
+	padding-top: 2.5em;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + label:before {
+	content: "\2714";
+	border: 0.1em solid #000;
+	border-radius: 0.5em;
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	padding-left: 2.3em;
+	padding-right: -2.1em;
+	padding-bottom: 0.7em;
+	padding-top: 2.1em;
+	color: transparent;
+	transition: .2s;
+	vertical-align: bottom;
+	font-size: 9px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+input[type="checkbox"] + label:active:before {
+	transform: scale(0);
+}
+
+input[type="checkbox"]:checked + label:before {
+	background-color: #21a7ec;
+	color: #ffffff;
+	border-color: #f1f1f1;
+}
+
+input[type="checkbox"]:disabled + label:before {
+	transform: scale(1);
+	border-color: #aaa;
+}
+
+input[class="hover"]:hover + label:before {
+	background: grey;
+	color: #ffffff;
+}
+
+span {
+	color: grey;
+	font-size: 13px;
+	margin: -100px 10px 10px 10px;
+}
+
+/* /////////////////////////////////////////// */
+
+/** {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #a9b8b8;
+}
+
+.wrapper {
+	width: 1000px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px auto;
+}
+
+.wrapper div {
+	width: 25%;
+	height: 250px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.wrapper div img {
+	width: 70px;
+	height: 70px;
+	margin-top: 25px;
+	margin-left: 90px;
+}
+
+.wrapper div .main-p {
+	font-weight: bolder;
+	color: #ffffff;
+	text-align: center;
+}
+
+.wrapper div .second-p {
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper div:nth-child(1) {
+	background: #9a248d;
+	position: relative;
+}
+.wrapper div:nth-child(2) {
+	background: #1eaaf2;
+	position: relative;
+}
+.wrapper div:nth-child(3) {
+	background: #87ded9;
+	position: relative;
+}
+.wrapper div:nth-child(4) {
+	background: #32d398;
+	position: relative;
+}
+.wrapper div:nth-child(5) {
+	background: #f9eb0c;
+	position: relative;
+}
+.wrapper div:nth-child(6) {
+	background: #dd8405;
+	position: relative;
+}
+.wrapper div:nth-child(7) {
+	background: #f90cbe;
+	position: relative;
+}
+.wrapper div:nth-child(8) {
+	background: #278e79;
+	position: relative;
+}
+
+.wrapper div:hover{
+	background: #1609bd;
+}
+
+.wrapper div:hover img {
+	transform: scale(1.1);
+	transition: all .5s;
+}
+
+.relative:hover .be1 {
+	background: #1609bd;
+}
+.relative:hover .be2 {
+	background: #1609bd;
+}
+.relative:hover .be3 {
+	background: #1609bd;
+}
+.relative:hover .be5 {
+	background: #1609bd;
+}
+.relative:hover .be6 {
+	background: #1609bd;
+}
+.relative:hover .be7 {
+	background: #1609bd;
+}
+
+.be {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	transform: rotate(45deg);
+	right: -13px;
+	top: 110px;
+	z-index: 1;
+	transition: all .3s;
+	animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+	0% {
+		right: -15px;
+	}
+	100% {
+		right: -13px;
+	}
+}
+
+.be1 {
+	background: #9a248d;
+}
+.be2 {
+	background: #1eaaf2;
+}
+.be3 {
+	background: #87ded9;
+}
+.be5 {
+	background: #f9eb0c;
+}
+.be6 {
+	background: #dd8405;
+}
+.be7 {
+	background: #f90cbe;
+}
+
+@media (min-width: 0px) and (max-width: 446.9px) {
+	.wrapper {
+		width: 100%;
+	}
+	.wrapper div {
+		width: 100%;
+	}
+	.wrapper div img {
+		margin-left: 185px;
+	}
+	.wrapper div p {
+		padding: 0 30px;
+	}
+	.be {
+		display: none;
+	}
+}
+@media (min-width: 447px) and (max-width: 769px) {
+	.wrapper {
+		width: 100%;
+	}
+	.wrapper div {
+		width: 50%;
+	}
+	.wrapper div img {
+		margin-left: 80px;
+	}
+	.be2, .be6 {
+		display: none;
+	}
+}
+@media (min-width: 768.9px) and (max-width: 990px) {
+	.wrapper {
+		width: 100%;
+	}
+	.wrapper div {
+		width: 50%;
+	}
+	.wrapper div img {
+		margin-left: 207px;
+	}
+	.be2, .be6 {
+		display: none;
+	}
+}
+@media (min-width: 989.9px) and (max-width: 1200px) {
+	.wrapper {
+		width: 100%;
+	}
+	.wrapper div {
+		width: 25%;
+	}
+}*/

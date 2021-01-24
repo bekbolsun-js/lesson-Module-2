@@ -1,0 +1,91 @@
+body {
+  background: #f1f1f1; }
+  body .container .row .my-col {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    body .container .row .my-col .form-group {
+      width: 80%;
+      height: 40px; }
+      body .container .row .my-col .form-group .input-group {
+        height: 40px;
+        background: silver;
+        border-radius: 20px; }
+        body .container .row .my-col .form-group .input-group .inp {
+          height: 40px;
+          background: silver;
+          border-radius: 20px 0 0 20px; }
+        body .container .row .my-col .form-group .input-group span .fa-search {
+          margin-top: 10px;
+          cursor: pointer; }
+    body .container .row .my-col .filter {
+      margin-top: 7px;
+      width: 20%;
+      height: 40px; }
+      body .container .row .my-col .filter .fa-filter {
+        margin-left: 30px;
+        border-radius: 50%;
+        border: 3px solid silver;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        cursor: pointer; }
+    body .container .row .my-col .collapse {
+      box-shadow: 3px 0px 7px rgba(0, 0, 0, 0.1);
+      box-shadow: -3px 0px 7px rgba(0, 0, 0, 0.1);
+      width: 60%;
+      height: 330px;
+      background: #fff;
+      margin-top: -30px;
+      margin-left: 178px;
+      position: relative;
+      border-radius: 5px;
+      padding: 20px 40px; }
+      body .container .row .my-col .collapse:before {
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 20px;
+        top: -10px;
+        background: #fff;
+        right: 15px;
+        border-radius: 0 0 5px 0;
+        transform: rotate(45deg); }
+      body .container .row .my-col .collapse .dropdown {
+        width: 100%;
+        height: 48px;
+        border: 1px solid silver;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        body .container .row .my-col .collapse .dropdown .dropdown-menu {
+          width: 100%;
+          border: none;
+          margin-left: -215px; }
+          body .container .row .my-col .collapse .dropdown .dropdown-menu input {
+            margin-top: 20px; }
+          body .container .row .my-col .collapse .dropdown .dropdown-menu input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none; }
+          body .container .row .my-col .collapse .dropdown .dropdown-menu input[type="checkbox"] {
+            width: 16px;
+            height: 16px;
+            border: 1px solid silver;
+            border-radius: 2px; }
+          body .container .row .my-col .collapse .dropdown .dropdown-menu input[type="checkbox"]:checked {
+            background: orange; }
+          body .container .row .my-col .collapse .dropdown .dropdown-menu input[type="checkbox"]:focus {
+            outline: 1px solid orange; }
+          body .container .row .my-col .collapse .dropdown .dropdown-menu label {
+            display: flex; }
+            body .container .row .my-col .collapse .dropdown .dropdown-menu label span {
+              margin-top: 18px;
+              margin-left: 30px;
+              font-size: 12px; }
+        body .container .row .my-col .collapse .dropdown .fa-angle-down {
+          cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
